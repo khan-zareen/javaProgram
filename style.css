@@ -1,0 +1,161 @@
+html,body{
+  font-family:"Georgia", Arial, sans-serif;
+  text-align:center;
+  min-width:300px;
+  color: black;
+}
+nav , footer {
+  align-items: center;
+  background-color: rgba(47,47,47,0.98);
+  display: flex;
+  justify-content: center;
+  color: white;
+  min-height: auto;
+  height: auto;
+  width: 100%;
+}
+
+nav {
+  box-shadow: 0 1px 1px;
+  position: fixed;
+  top: 0;
+}
+
+nav > a {
+  color: white;
+  padding: 1px 3px;
+}
+
+nav > p {
+  
+  letter-spacing: 1px;
+  padding: 2 2px;
+}
+
+.main{
+  margin:20px auto;
+  padding:10px;
+  border:1px grey solid;
+  border-radius:5px;
+  background: grey;
+}
+#img{
+  max-width: 100%;
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+.img-div{
+  margin:2px;
+  margin-top:2px;
+  width: 100%;
+  border:2px solid grey;
+  background: grey;
+}
+.img-caption{
+  margin: 10px;
+  font-size: 20px;
+  color: blue;
+  font-family: Segoe Script;
+}
+.headline{
+  margin-top:50px;
+  text-align:left;
+}
+ul{
+  max-width:500px;
+  margin:1 auto;
+  text-align:left;
+}
+li{
+  margin: 1px;
+}
+
+.grid {
+  border: 3px grey solid;
+  height: auto;
+  width: auto;
+  display: inline-block;
+  grid-template-rows: 200px 200px;
+  grid-column-gap: 12px;
+  grid-row-gap: 11px;
+  font-family: Times New Roman;
+}
+.grid2 {
+  font-style: italic;
+  height: auto;
+  width: auto;
+  display: inline-block;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  align-content: right;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  
+}
+.life {
+  grid-column: 1 / span 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.work {
+  grid-column: 3 / span 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.awards {
+  grid-column: 4 / span 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.basic {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+.quotes {
+  background-color: blue;
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  align: center;
+  color: white;
+  border-radius: 20px;
+  border: 2px black solid;
+  
+  
+}
+h6 {
+  font-size: 20px;
+  text-align: center;
+  }
+@media only screen and (max-width: 480px){ #image { 
+  width: 270px;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px) and  (orientation: landscape) {
+  #image { 
+  width: 270px;} 
+    @media only screen and (min-resolution: 150dpi){
+  #image {
+    image: url("http://successness.com//wp-content/uploads/2015/04/stephen_hawking_QUOTE.jpg");
+    
+  }
+}
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px)
+{
+  body {
+    font-size: 20px;
+  }
+  
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+  #image  {
+  float: left;
+    width: auto;
+}
+  
